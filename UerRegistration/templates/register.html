@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<head> <title> User Registration Form </title>
+<style>
+  body {
+    font-family: sans-serif;
+    background: #f0f0f0;
+  }
+  form {
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    width: 280px;
+    border-radius: 5px;
+  }
+  input, select, button {
+    margin-top: 8px;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body>
+<form method="POST" action="/">
+<h2>User Registration Form</h1>
+<label>Enter Username</label>
+<input type="text" name="Username">
+<br><br>
+<label>Enter Email</label>
+<input type="email" name="email">
+<br><br>
+<label>Phone no.</label>
+<input type="number" name="number" placeholder="1234567890">
+<br><br>
+<label>Password:</label>
+<input type="passsword" name="password">
+<br><br>
+<label>Date of Birth</label>
+ <input type="date" name="dob">
+<br><br>
+<label class="form-label">Gender</label>
+ <select class="form-select" name="gender">
+ <option value="">Select Gender</option>
+ <option>Male</option>
+ <option>Female</option>
+ <option>Other</option>
+ </select>
+<br><br>
+<button type="submit" class="btn btn-primary px5">Register</button>
+
+</form>
+
+
