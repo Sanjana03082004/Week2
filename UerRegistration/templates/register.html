@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const address = form.address.value.trim();
 
         if (!/^[A-Za-z\s]{3,}$/.test(fullName)) {
-            errors.push("Full Name must contain only letters and at least 3 characters.");
+            alert("Full Name must contain only letters and at least 3 characters.");
         }
 
         if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
